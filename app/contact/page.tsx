@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <main className="bg-gray-50 text-gray-900">
       {/* Hero Section */}
-      <section className="h-[40vh] flex justify-center items-center bg-[url('https://images.unsplash.com/photo-1599058918144-56c49a6e8c54?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center relative">
+      <section className="h-[40vh] flex justify-center items-center bg-cover bg-center relative">
         <div className="absolute inset-0 bg-black/60"></div>
         <h1 className="relative z-10 text-5xl font-bold text-white">Contact Us</h1>
       </section>

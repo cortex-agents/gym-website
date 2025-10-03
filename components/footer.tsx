@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -19,19 +20,19 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="/about" className="hover:text-red-500 transition-colors">About</a>
+              <Link href="/about" className="hover:text-red-500 transition-colors">About</Link>
             </li>
             <li>
-              <a href="/classes" className="hover:text-red-500 transition-colors">Classes</a>
+              <Link href="/classes" className="hover:text-red-500 transition-colors">Classes</Link>
             </li>
             <li>
-              <a href="/trainer" className="hover:text-red-500 transition-colors">Trainers</a>
+              <Link href="/trainer" className="hover:text-red-500 transition-colors">Trainers</Link>
             </li>
             <li>
-              <a href="/pricing" className="hover:text-red-500 transition-colors">Pricing</a>
+              <Link href="/pricing" className="hover:text-red-500 transition-colors">Pricing</Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-red-500 transition-colors">Contact</a>
+              <Link href="/contact" className="hover:text-red-500 transition-colors">Contact</Link>
             </li>
           </ul>
         </div>
@@ -39,8 +40,8 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact</h3>
-          <p>Email: <a href="mailto:contact@fitzone.com" className="hover:text-red-500 transition-colors">contact@fitzone.com</a></p>
-          <p>Phone: <a href="tel:+923001234567" className="hover:text-red-500 transition-colors">+92 300 1234567</a></p>
+          <p>Email: <Link href="mailto:contact@fitzone.com" className="hover:text-red-500 transition-colors">contact@fitzone.com</Link></p>
+          <p>Phone: <Link href="tel:+923001234567" className="hover:text-red-500 transition-colors">+92 300 1234567</Link></p>
           <p>Address: 123 Fitness St, Karachi, Pakistan</p>
         </div>
       </div>
